@@ -24,3 +24,68 @@
 .LADYBASILDON{   
     color:black;
 }
+table {
+    border: 1px solid black; 
+    width:50%;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 45px 30px 50px;
+    margin: 25px 50px 75px 120px;
+ }
+ th{
+    border: 1px solid black; 
+    background-color: rgb(200, 15, 71);
+    border-collapse: collapse;
+    text-align: center;
+
+ }
+ td{
+    border: 1px solid darkmagenta; 
+   
+    border-collapse: collapse;
+    text-align: center;
+
+ }
+  tr:nth-child(odd)
+  {
+      background-color: rgb(166, 12, 71);
+  }
+  .LORDCAVERSHAM{
+    color:green;
+}
+.MABELCHILTERN{
+    color:brown;
+}
+.MABELCHILTERN:hover{
+    text-shadow: 2px 3px 4px gray ;
+    border-style: double;
+    border: 1px solid;
+    background-color: rgb(156, 241, 241);
+    box-shadow: 4px 4px 4px pink;
+    filter: blur(1px);
+}
+.LORDCAVERSHAM:hover{
+    text-shadow: 2px 3px 4px rgb(246, 202, 25) ;
+    border-style: double;
+    border: 1px solid;
+    background-color: rgb(130, 247, 192);
+    box-shadow: 4px 4px 4px rgb(209, 98, 98);
+    filter: blur(1px);
+}
+    ul.navbar-horizontal {
+        list-style-type: none;
+       
+    }
+    ul.navbar-horizontal li {
+        float:left;
+        background: linear-gradient(110deg, rgb(229, 136, 230) 60%,rgb(168, 112, 55) 60%);
+    }
+    ul.navbar-horizontal a {
+        display:block;
+        padding:20px;
+        color: rgb(72,21, 103);
+    }
+    ul.navbar-horizontal a:hover {
+        background-color:rgb(24, 160, 209);
+        color:rgb(180, 40, 120);
+    }
